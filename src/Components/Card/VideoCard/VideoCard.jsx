@@ -1,22 +1,22 @@
 import React from 'react';
 
-import thumbnail from "../../../images/thunbnail.jpg";
-import channel from "../../../images/profile.png";
+// import thumbnail from "../../../images/thunbnail.jpg";
+// import channel from "../../../images/profile.png";
 
 import "./VideoCard.css";
 
-const VideoCard = () => {
+const VideoCard = ({channel, profile, thumbnail, title, views, uploadDate}) => {
   return (
     <div className='card-box'>
         <img className='thumbnail mb-md' src={thumbnail} alt='' />
         <div className='details-box'>
             <div className='channel-box'>
-                <img className='channel' src={channel} />
+                <img className='channel' src={profile} />
             </div>
             <div className='details'>
-                <h2 className='mb-xs text-primary header'>#SundaySuspense | Hetamgarer Guptodhon Part 1 | Shirshendu Mukhopadhyay | Mirchi Bangla</h2>
-                <p className='paragraph text-light-grey mb-xs'>Mirchi Bangla</p>
-                <p className='paragraph text-light-grey mb-md'>1.5M Views . 1w ago</p>
+                <h2 className='mb-xs text-primary paragraph bold'>{title}</h2>
+                <p className='paragraph text-light-grey mb-xs'>{channel}</p>
+                <p className='paragraph text-light-grey mb-md'>1{views} Views . {uploadDate}</p>
             </div>
         </div>
     </div>

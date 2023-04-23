@@ -4,8 +4,8 @@
 }
 .details-box {
     display: grid;
-    grid-template-columns: 50px auto;
-    gap: 10px;
+    grid-template-columns: 40px auto;
+    gap: 15px;
 }
 .channel-box {
     /* border: 1px solid red; */

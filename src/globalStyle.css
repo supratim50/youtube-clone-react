@@ -46,6 +46,9 @@
 .paragraph {
     font-size: .9rem;
 }
+.bold {
+    font-weight: bold;
+}
 
 .p-sm-horizontal {
     padding: 0px 8px 0 8px;
