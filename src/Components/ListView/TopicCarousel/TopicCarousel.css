@@ -1,0 +1,48 @@
+.carousel-box {
+    overflow: hidden;
+    margin: 0 16px 0 16px;
+    position: relative;
+    /* border: 1px solid red; */
+}
+.left-arrow-box {
+    border: 1px solid red;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-image: linear-gradient(to right, #0F0F0F 70%, transparent);
+    z-index: 1;
+}
+.right-arrow-box {
+    border: 1px solid red;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-image: linear-gradient(to left, #0F0F0F 70%, transparent);
+    z-index: 1;
+}
+.carouselArrow {
+    width: 26px;
+    height: 26px;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: relative;
+}
+.carouselArrow:hover {
+    background-color: #222222;
+}
+.right {
+    right: 0;
+    margin-left: auto;
+}
+.left {
+    left: 0;
+}
+
+.carousel {
+    max-width: 100%;
+    transform: translate(0, 0);
+}

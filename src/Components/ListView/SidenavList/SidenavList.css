@@ -1,0 +1,18 @@
+.listbox {
+    padding: 10px;
+    width: 167px;
+}
+.icon-box{
+   margin-right: 20px;
+}
+.listbox {
+   border-radius: 10px;
+}
+.listbox:hover {
+   background-color: #222222;
+   cursor: pointer;
+}
+.active {
+    background-color: #222222;
+    cursor: pointer;
+}

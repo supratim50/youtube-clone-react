@@ -1,0 +1,10 @@
+.list-box {
+    border-radius: 10px;
+    padding: 8px 12px;
+    transition: .3s;
+}
+
+.list-box:hover {
+    background-color: #4a4a4a !important;
+    cursor: pointer; 
+}

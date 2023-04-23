@@ -1,0 +1,20 @@
+.thumbnail {
+    width: 100%;
+    border-radius: 15px;
+}
+.details-box {
+    display: grid;
+    grid-template-columns: 50px auto;
+    gap: 10px;
+}
+.channel-box {
+    /* border: 1px solid red; */
+}
+.channel {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.details {
+    /* border: 1px solid grey; */
+}

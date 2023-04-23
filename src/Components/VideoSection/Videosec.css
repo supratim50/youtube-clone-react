@@ -1,0 +1,6 @@
+.video-section {
+    display: grid;
+    grid-template-rows: 65px auto;
+    grid-template-columns: auto;
+    gap: 20px;
+}
