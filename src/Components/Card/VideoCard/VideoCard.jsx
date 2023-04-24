@@ -5,9 +5,10 @@ import React from 'react';
 
 import "./VideoCard.css";
 
-const VideoCard = ({channel, profile, thumbnail, title, views, uploadDate}) => {
+const VideoCard = ({channel, profile, thumbnail, title, views, uploadDate, videoLink}) => {
   return (
-    <div className='card-box'>
+    <a href={videoLink} target='_blank'>
+      <div className='card-box' >
         <img className='thumbnail mb-md' src={thumbnail} alt='' />
         <div className='details-box'>
             <div className='channel-box'>
@@ -19,7 +20,8 @@ const VideoCard = ({channel, profile, thumbnail, title, views, uploadDate}) => {
                 <p className='paragraph text-light-grey mb-md'>1{views} Views . {uploadDate}</p>
             </div>
         </div>
-    </div>
+      </div>
+    </a>
   )
 }
 
