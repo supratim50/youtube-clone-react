@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 
-const useFetch = (query) => {
+const useFetch = () => {
 
     const [data, setData] = useState([]);
     const [isLoading, setIsLoading] = useState(false);

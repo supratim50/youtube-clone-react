@@ -14,7 +14,7 @@ const VideoShowcase = () => {
   const searchContext = useContext(SearchContext);
 
   // get data 
-  const {data, isLoading, fetchData} = useFetch(searchContext.searchItem);
+  const {data, isLoading, fetchData} = useFetch();
 
   useEffect(() => {
     console.log("From Video",searchContext.searchItem);
